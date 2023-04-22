@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" 
+                aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" rel="home" href="#">
+            <img style="max-width:100px; margin-top: -7px;" src="imagens/logo.png">
+        </a>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Início <span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" 
+                            aria-expanded="false">Usuário</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown10">
+                    <a class="dropdown-item" href="formAddUsuario.html">Cadastrar Usuário</a>
+                    <a class="dropdown-item" href="exibirUsuarios.php">Listar Usuários</a>
+                    <a class="dropdown-item" href="pesquisarUsuario.html">Pesquisar Usuário</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" 
+                            aria-expanded="false">Sessão</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown10">
+                    <a class="dropdown-item" href="formAddSessao.html">Cadastrar Sessão</a>
+                    <a class="dropdown-item" href="exibirSessoes.php">Listar Sessões</a>
+                    <a class="dropdown-item" href="pesquisarSessao.html">Pesquisar Sessão</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" 
+                            aria-expanded="false">Livro</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown10">
+                    <a class="dropdown-item" href="formAddLivro.php">Cadastrar Livro</a>
+                    <a class="dropdown-item" href="exibirLivros.php">Listar Livros</a>
+                    <a class="dropdown-item" href="pesquisarLivro.html">Pesquisar Livro</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" 
+                            aria-expanded="false">Empréstimo</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown10">
+                    <a class="dropdown-item" href="formAddEmprestimo.php">Cadastrar Empréstimo</a>
+                    <a class="dropdown-item" href="exibirEmprestimos.php">Listar Empréstimos</a>
+                    <a class="dropdown-item" href="pesquisarEmprestimoUsuario.html">Pesquisar Empréstimos por Usuário</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
